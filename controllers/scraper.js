@@ -19,8 +19,6 @@ module.exports = function(app) {
   app.get("/scraper", (req, res) => {
     request.get(URL, (error, response, body) => {
       if (error) throw error;
-      // console.log("response: ", response);
-      // console.log("body: ", body);
       const $ = cheerio.load(body);
       const stories = [];
       let count = 0;
