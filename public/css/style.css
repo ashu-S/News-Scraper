@@ -4,7 +4,7 @@
 }*/
 
 body {
-    background-image: url("/assets/images/background.jpg");
+    background-image: url("/assets/images/bg.jpg");
     background-size: 100%;
     background-attachment: fixed;
     padding-top: 70px;
@@ -25,9 +25,6 @@ body {
   color: #000;
 }
 
-.deleteNote {
-	display: inline-block;
-}
 
 .previousNotes {
     display: inline-block;
