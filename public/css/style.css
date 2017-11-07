@@ -2,3 +2,38 @@ body {
     background: gray;
     margin-top: 8%;
 }
+
+body {
+    background-image: url("/assets/images/background.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+    padding-top: 70px;
+}
+
+.jumbo-nyt{
+  position: relative;
+  top: -20px;
+  height: 450px;
+  background-color: rgba(270,270,270,.6)!important;
+  background-image: url("/assets/images/logo.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.text-center{
+  color: #000;
+}
+
+.deleteNote {
+	display: inline-block;
+}
+
+.previousNotes {
+    display: inline-block;
+    width: 90%
+}
+
+#scrape {
+    margin: 8px 0px;
+}
